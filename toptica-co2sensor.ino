@@ -1,6 +1,3 @@
-#include <I2C.h>
-#include <II2C.h>
-#include <MPU6050.h>
 #include <MultiFuncShield.h>
 #include <SparkFun_SCD30_Arduino_Library.h>
 #include <Wire.h>
