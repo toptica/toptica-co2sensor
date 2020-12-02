@@ -1,6 +1,8 @@
+#include <I2C.h>
+#include <II2C.h>
+#include <MPU6050.h>
 #include <MultiFuncShield.h>
 #include <SparkFun_SCD30_Arduino_Library.h>
-#include <TimerOne.h>
 #include <Wire.h>
 
 
@@ -14,10 +16,9 @@ void setup() {
     int baudrate = 9600;
     Serial.begin(baudrate);
 
-    // Initialize Wire, MFS and timer one
-    Wire.begin();
-    Timer1.initialize();
-    MFS.initialize(&Timer1);
+    // Initialize Wire and MFS
+    Wire.begin();    
+    MFS.initialize();
 
     // Write TOPTICA to MFS
     MFS.beep();

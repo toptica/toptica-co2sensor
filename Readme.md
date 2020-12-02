@@ -9,13 +9,13 @@ For detailed assembly instructions please refere to [``AssemblyManual.PDF``](Ass
 
 * Open the file [``toptica-co2sensor.ino``](./toptica-co2sensor.ino) with the Arduino IDE (double-click on the file)
 
-* To add and use the 3rd party libraries located under ``3rdParty``, click on "Sketch" &rarr; "Include Library" &rarr; "Add .ZIP Library ...". Select the file [``MultiFuncShield-Library-master.zip``](./3rdParty/MultiFuncShield-Library-master.zip) and click okay.
+* To add and use the 3rd party libraries located under ``3rdParty``, click on "Sketch" &rarr; "Include Library" &rarr; "Add .ZIP Library ...". Select the file [``MultiFuncShield-Library.zip``](./3rdParty/MultiFuncShield-Library.zip) and click okay.
 
-* Repeate this process for the files [``SparkFun_SCD30_Arduino_Library-master.zip``](./3rdParty/SparkFun_SCD30_Arduino_Library-master.zip) as well as [``TimerOne-r11.zip``](./3rdParty/TimerOne-r11.zip).
+* Repeate this process for the file [``SparkFun_SCD30_Arduino_Library-master.zip``](./3rdParty/SparkFun_SCD30_Arduino_Library-master.zip).
 
 ![img1](./img/tutorial1.png)
 
-* Make sure that the libraries were included correctly
+* Make sure that the libraries were included correctly by verifying that *"MultiFuncShield-Library"* and *"SparkFun SCD30 Arduino Library"* are listed under "Contributed Libraries" (the screenshot also shows the Timer One library, which is not necessary).
 
 ![img2](./img/tutorial2.png)
 
