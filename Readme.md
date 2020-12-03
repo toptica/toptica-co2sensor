@@ -1,4 +1,11 @@
 # Introduction
+Build your own CO2 Sensor Unit. TOPTICA gives you the necessary circuit board for it - for free!
+We offer you a guide for making your own carbon-dioxide sensor unit to measure the percentage of carbon dioxide gas.
+You only need to buy the sensor and the Arduino. With the help of the manual, a soldering iron and some skill you can build your own CO2 sensor.
+You can order the correspondig circuit board on the [TOPTICA Homepage](https://www.toptica.com/index.php?id=564)
+
+**Please note: This offer is limited to one board per household and valid until our stock lasts. Distribution only to private households, not for resale, no warranty.**
+
 
 # Hardware installation guide
 For detailed assembly instructions please refere to [``AssemblyManual.PDF``](AssemblyManual.PDF)
