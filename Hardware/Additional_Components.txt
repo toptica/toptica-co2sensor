@@ -5,14 +5,17 @@ Here you find examples for additional components you might need for your Arduino
 
 Power Supply:
 -------------
-USB power supply, 5 V, 1000 mA
-Distributor: Reichelt
-Ordering Number: OTB 8013930
-Manufacturer: OTB
+Standard USB power supply, 5 V, 1000 mA
 
 
 Cables:
 -------
+USB 2.0 Cable - connector type A to connector type B
+Distributor: DigiKey
+Ordering Number: AE10618-ND
+Manufacturer: Assmann WSW Components
+
+
 USB 2.0 Cable, 1.8 m - connector type A to connector type B
 Distributor: Bürklin
 Ordering Number: 13M3466
