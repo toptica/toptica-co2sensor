@@ -16,11 +16,11 @@ For detailed assembly instructions please refere to [``AssemblyManual.PDF``](./H
 
 * Download and install the latest Arduino IDE from the [Arduino Homepage](https://www.arduino.cc/en/software). You can find more detailed information on the installation process in the official Arduino [Getting Started Guide](https://www.arduino.cc/en/Guide).
 
-* Open the file [``toptica-co2sensor.ino``](.Software/toptica-co2sensor.ino) with the Arduino IDE (double-click on the file)
+* Open the file [``toptica-co2sensor.ino``](./Software/toptica-co2sensor.ino) with the Arduino IDE (double-click on the file)
 
-* To add and use the 3rd party libraries located under ``./Software/3rdParty``, click on "Sketch" &rarr; "Include Library" &rarr; "Add .ZIP Library ...". Select the file [``MultiFuncShield-Library.zip``](.Software/3rdParty/MultiFuncShield-Library.zip) and click okay.
+* To add and use the 3rd party libraries located under ``./Software/3rdParty``, click on "Sketch" &rarr; "Include Library" &rarr; "Add .ZIP Library ...". Select the file [``MultiFuncShield-Library.zip``](./Software/3rdParty/MultiFuncShield-Library.zip) and click okay.
 
-* Repeate this process for the file [``SparkFun_SCD30_Arduino_Library-master.zip``](.Software/3rdParty/SparkFun_SCD30_Arduino_Library-master.zip).
+* Repeate this process for the file [``SparkFun_SCD30_Arduino_Library-master.zip``](./Software/3rdParty/SparkFun_SCD30_Arduino_Library-master.zip).
 
 ![img1](./img/tutorial1.png)
 
