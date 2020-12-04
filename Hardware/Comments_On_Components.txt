@@ -1,0 +1,63 @@
+Some comments on components and where to buy them:
+==================================================
+
+R1, R2, R3 and R4:
+------------------
+These 10-kOhm-resistors are so-called "Pullup-Resistors" for the I²C Bus.
+There is no need to buy exactly the brand and type of resistor that is mentioned in the bill of materials.
+The exact value of the resistor, its tolerance or temperature coefficient, neither one of these parameters is critical.
+In practice, you can solder-in any old resistor in a 0805-SMD-package with a value between 4,7 kOhms (maybe even less) and 15 kOhms (maybe even more).
+The CO2-sensor will very likely work as expected.
+
+C1:
+---
+Any old ceramic capacitor in a 0805-SMD-package with a value between 10nF (maybe even less) and 1µF (maybe even more) will work here.
+
+D1:
+---
+The diode LL4148 is manufactured by many many companies.
+Any brand will work.
+In fact, almost any silicon diode will work here as long as you are able to solder it into the board.
+Just mind the orientation! The mark on diode usually depicts the cathode.
+If you are unsure, use a Multimeter to check the polarity before soldering!
+
+J1:
+---
+The Arduino header kit is also available from many vendors.
+Just search for "Arduino stackable header kit" or "Arduino header kit R3" or "Arduino UNO header kit" in order to find a source of supply.
+
+
+U1:
+---
+The SCD30 from Sensorion is a fast and accurate CO2 sensor, but it has its price.
+It is usually available from Digikey, Mouser, Arrow, Glyn, RS-Components, Farnell and other distributors.
+Due to the high demand, delivery times can sometimes be longer.
+Therefore, before ordering, check whether the sensor is available from stock!
+
+U2:
+---
+You can buy the Arduino UNO R3 from the official store (https://store.arduino.cc/arduino-uno-rev3), from electronics distributors, or even from your maker shop around the corner.
+You can even buy Arduino UNO clones from vendors like Aliexpress, Banggood and so on at much lower prices than the genuine part.
+Decide for yourself if you want to buy the original product or the cloned one.
+
+U10:
+----
+There exist many many clones of this board on the market, beginning from less than 2 Euros!
+We could not find the "original" manufacturer of the Multi-Function Shield and maybe we will never find out who designed it in the first place.
+We prefer the HIMALAYA brand Multi-Function Shield, which seems to have a slightly better quality than the really cheap ones.
+But that doesn't mean that the very cheap products don't work.
+So far, even the cheapest boards have worked for us.
+
+U3:
+---
+The TCA9517 is a I²C level converter.
+The Arduino UNO works on 5V but the maximum voltage level that is allowed on the I²C Pins of the SCD30 is only 3.0V.
+The different voltage levels require therefore the use of a so-called level converter.
+The TCA9517DR is available from distributors like Digikey, Mouser and so on and maybe even from ebay.
+There exist similar products from other manufacturers (e.g., PCA9517D from NXP) which may work also, but we haven't tried them out yet.
+
+
+Happy Soldering!
+
+Christian Rausch, TOPTICA AG
+

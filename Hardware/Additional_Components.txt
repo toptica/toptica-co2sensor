@@ -1,0 +1,25 @@
+Additional Components:
+======================
+
+Here you find examples for additional components you might need for your Arduino Board:
+
+Power Supply:
+-------------
+USB power supply, 5 V, 1000 mA
+Distributor: Reichelt
+Ordering Number: OTB 8013930
+Manufacturer: OTB
+
+
+Cables:
+-------
+USB 2.0 Cable, 1.8 m - connector type A to connector type B
+Distributor: Bürklin
+Ordering Number: 13M3466
+Manufacturer: DIGITUS
+
+
+USB 2.0 Cable, 2 m, Angle Plug - connector type A to connector type B
+Distributor: Bürklin
+Ordering Number: 13M3712
+Manufacturer: Goobay
